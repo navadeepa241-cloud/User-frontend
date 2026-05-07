@@ -1,0 +1,135 @@
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* ===== BODY ===== */
+body {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  background: #1f2937;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h1 {
+  color: #fff;
+  font-size: 22px;
+}
+
+.navbar a {
+  color: #d1d5db;
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: #fff;
+}
+
+/* ===== CENTER CONTAINER ===== */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+
+/* ===== FORM BOX ===== */
+.form-box {
+  background: #fff;
+  padding: 30px;
+  width: 350px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* TITLE */
+.form-box h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* INPUT */
+.form-box input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.form-box input:focus {
+  border-color: #667eea;
+}
+
+/* BUTTON */
+.form-box button {
+  width: 100%;
+  padding: 12px;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-box button:hover {
+  background: #5a67d8;
+  transform: scale(1.03);
+}
+
+/* TEXT */
+.form-box p {
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+.form-box a {
+  color: #667eea;
+  text-decoration: none;
+}
+
+/* ===== DASHBOARD ===== */
+.dashboard {
+  padding: 40px;
+  text-align: center;
+  color: white;
+}
+
+.dashboard h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* CARD */
+.card {
+  background: #fff;
+  color: #333;
+  padding: 20px;
+  margin: 20px auto;
+  width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
